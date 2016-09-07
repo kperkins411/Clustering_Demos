@@ -11,3 +11,5 @@ then its considered an outlier and is not included.  Solves the skewing problem 
 selection.  Too small/large, too small a radius then maybe your clusters are too small, or outliers are not really outliers.
 
 Can use DBSCAN to find outliers to eliminate then k means to find a given number of clusters.  Might still have local minima though.
+
+
